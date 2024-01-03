@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #87CEFA;
+    /* Warna biru muda */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+    /* Menentukan panjang tombol */
+    text-align: center;
+    /* Menengahkan teks di dalam tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5a9bd5;
+    /* Warna biru muda yang lebih gelap saat dikursor */
+    color: #fff;
+    /* Warna teks berubah saat dikursor */
+}

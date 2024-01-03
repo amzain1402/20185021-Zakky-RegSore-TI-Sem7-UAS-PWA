@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0;
+    background-color: #f9f9f9;
+    /* Warna latar belakang yang kalem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cv-container {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Menengahkan konten dalam container */
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    background-image: url('Gambar/pp.jpg');
+    background-size: 50%;
+    background-position: center;
+    /* Properti untuk memperbesar foto */
+    /* Ganti dengan path gambar profil Anda */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    border: 5px solid #fff;
+    /* Border putih untuk memberikan kontras dengan latar belakang */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+    /* Warna biru yang kalem */
+}
+
+p {
+    color: #555;
+    /* Warna abu-abu yang kalem */
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3498db;
+    /* Warna biru yang kalem */
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(40, 43, 235);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #3498db;
+}

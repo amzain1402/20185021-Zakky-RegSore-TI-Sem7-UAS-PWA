@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-style.css">
+    <title>Data Mahasiswa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Data Mahasiswa</h1>
+
+        <!-- Formulir Mahasiswa -->
+        <form id="mahasiswaForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" required>
+
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" name="kelas" required>
+
+            <label for="semester">Semester:</label>
+            <input type="text" id="semester" name="semester" required>
+
+            <label for="jurusan">Jurusan:</label>
+            <input type="text" id="jurusan" name="jurusan" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="alasan">Alasan Belajar PWA:</label>
+            <textarea id="alasan" name="alasan" rows="4" required></textarea>
+
+            <button type="button" onclick="addAndDisplayMahasiswa()">Tambah Mahasiswa</button>
+        </form>
+        <a href="Index.html" class="back-button">Kembali ke Halaman Utama</a>
+
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
